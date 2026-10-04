@@ -19,20 +19,10 @@
       "sourcePath": "AGENTS.md",
       "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
       "sourceSha256": "f1a516f71d237ab741213a79997e3fc1edf98ce019d861dda92454934fd21374",
-      "sha256": "bf75a08e55483da5c3bb517947daf219e6859ce6fd977c99139a4e4704bb6022",
-      "size": 3118,
-      "transformation": "Remove laboratory-specific workspace/tool and just check command; preserve portable contract.",
+      "sha256": "2c0afa6c1c257669454ec5ac8cf962d2d7c774d476859bc1a06e78e8b2fbd236",
+      "size": 3258,
+      "transformation": "Remove laboratory-specific workspace/tool and just check command; preserve portable contract.; owner-authorized provider-neutral entry guidance and removal of obsolete compatibility entry references; historical source fields retained",
       "role": "required"
-    },
-    {
-      "path": "CLAUDE.md",
-      "sourcePath": "CLAUDE.md",
-      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
-      "sourceSha256": "d830177eb8e9b6cb9d77ca23cc1457e03361ebee774988d3b1b554faa4e02553",
-      "sha256": "d830177eb8e9b6cb9d77ca23cc1457e03361ebee774988d3b1b554faa4e02553",
-      "size": 126,
-      "transformation": "none",
-      "role": "optional"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -139,10 +129,32 @@
       "sourcePath": "README.md",
       "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
       "sourceSha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb",
-      "transformation": "owner-authored canonical packaging README; corrected public website backlink; original source revision and hash retained",
+      "transformation": "owner-authored canonical packaging README; corrected public website backlink; original source revision and hash retained; owner-authorized provider-neutral entry guidance and removal of obsolete compatibility entry references; theme-aware original MDAAI logo; historical source fields retained",
       "role": "required",
-      "sha256": "043a8bb4af53b98b04e8360fe9d25c623129a6f4de6b27a93b8f54058a6f423d",
-      "size": 1348
+      "sha256": "f6932283072f1dd11070886e9b1372dc3479b940da7ec061ba252a7a4c0d2baf",
+      "size": 1783
+    },
+    {
+      "path": "assets/brand/logo-black.svg",
+      "sourcePath": "brand-staging/logo-black.svg",
+      "sourceRevision": null,
+      "sourceOrigin": "owner-authorized original MDAAI artwork, reviewed 2026-10-04; staged source has no Git revision",
+      "sourceSha256": "cef322e1bfb791257622a4dfddbdbdd5036e1f2ba6ad50c757b6707f193d9901",
+      "sha256": "cef322e1bfb791257622a4dfddbdbdd5036e1f2ba6ad50c757b6707f193d9901",
+      "size": 983,
+      "transformation": "original SVG copied byte-for-byte; relocated to assets/brand; Apache-2.0 under repository owner attribution",
+      "role": "optional"
+    },
+    {
+      "path": "assets/brand/logo-white.svg",
+      "sourcePath": "brand-staging/logo-white.svg",
+      "sourceRevision": null,
+      "sourceOrigin": "owner-authorized original MDAAI artwork, reviewed 2026-10-04; staged source has no Git revision",
+      "sourceSha256": "11af95fd5bfcfae955139d6b44aff606798bcf99dc0e2147bc2c1d852c700b8d",
+      "sha256": "11af95fd5bfcfae955139d6b44aff606798bcf99dc0e2147bc2c1d852c700b8d",
+      "size": 983,
+      "transformation": "original SVG copied byte-for-byte; relocated to assets/brand; Apache-2.0 under repository owner attribution",
+      "role": "optional"
     },
     {
       "path": "licenses/legacy-MIT.txt",
