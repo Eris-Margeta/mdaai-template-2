@@ -139,10 +139,10 @@
       "sourcePath": "README.md",
       "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
       "sourceSha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb",
-      "transformation": "owner-authored packaging addition; not original upstream bytes",
+      "transformation": "owner-authored canonical packaging README; corrected public website backlink; original source revision and hash retained",
       "role": "required",
-      "sha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb",
-      "size": 1328
+      "sha256": "043a8bb4af53b98b04e8360fe9d25c623129a6f4de6b27a93b8f54058a6f423d",
+      "size": 1348
     },
     {
       "path": "licenses/legacy-MIT.txt",
