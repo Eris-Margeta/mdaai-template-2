@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "repository": "Eris-Margeta/mdaai-template-2",
+  "pythonVersion": "3.13.14",
+  "scaffold": "MDAAI-MONOREPO/repo-template; private operations excluded; fresh history",
+  "files": [
+    {
+      "path": ".python-version",
+      "sourcePath": ".python-version",
+      "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
+      "sourceSha256": "f8faecf2505680716c6279bf2cdec3d5a5ba2ba852f0d7df45d51ac1ce8d9ade",
+      "transformation": "owner-authored packaging addition; not original upstream bytes",
+      "role": "required",
+      "sha256": "f8faecf2505680716c6279bf2cdec3d5a5ba2ba852f0d7df45d51ac1ce8d9ade",
+      "size": 8
+    },
+    {
+      "path": "AGENTS.md",
+      "sourcePath": "AGENTS.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "f1a516f71d237ab741213a79997e3fc1edf98ce019d861dda92454934fd21374",
+      "sha256": "bf75a08e55483da5c3bb517947daf219e6859ce6fd977c99139a4e4704bb6022",
+      "size": 3118,
+      "transformation": "Remove laboratory-specific workspace/tool and just check command; preserve portable contract.",
+      "role": "required"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sourcePath": "CLAUDE.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "d830177eb8e9b6cb9d77ca23cc1457e03361ebee774988d3b1b554faa4e02553",
+      "sha256": "d830177eb8e9b6cb9d77ca23cc1457e03361ebee774988d3b1b554faa4e02553",
+      "size": 126,
+      "transformation": "none",
+      "role": "optional"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sourcePath": "CONTRIBUTING.md",
+      "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
+      "sourceSha256": "363bab5ce3c59c7d19d5f39b7a972dff4fe9745a0ed49f2a7874cc69684ff0f1",
+      "transformation": "owner-authored packaging addition; not original upstream bytes",
+      "role": "required",
+      "sha256": "363bab5ce3c59c7d19d5f39b7a972dff4fe9745a0ed49f2a7874cc69684ff0f1",
+      "size": 283
+    },
+    {
+      "path": "LICENSE",
+      "sourcePath": "LICENSE",
+      "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
+      "sourceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "transformation": "owner-authored packaging addition; not original upstream bytes",
+      "role": "required",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    },
+    {
+      "path": "NOTICE",
+      "sourcePath": "NOTICE",
+      "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
+      "sourceSha256": "f14ad062071a1f15472d715a3e2dcaf8942a518ce08faa8af6a9b23744cc519f",
+      "transformation": "owner-authored packaging addition; not original upstream bytes",
+      "role": "required",
+      "sha256": "f14ad062071a1f15472d715a3e2dcaf8942a518ce08faa8af6a9b23744cc519f",
+      "size": 323
+    },
+    {
+      "path": "PROJECT-INTERNAL/GOVERNANCE/AUTHORITY.md",
+      "sourcePath": "PROJECT-INTERNAL/GOVERNANCE/AUTHORITY.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "62dba9a830d92aa07afd3f407446342677e6857663027aa18aed6204fca6ef51",
+      "sha256": "62dba9a830d92aa07afd3f407446342677e6857663027aa18aed6204fca6ef51",
+      "size": 2072,
+      "transformation": "none",
+      "role": "required"
+    },
+    {
+      "path": "PROJECT-INTERNAL/GOVERNANCE/ENGINEERING.md",
+      "sourcePath": "PROJECT-INTERNAL/GOVERNANCE/ENGINEERING.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "b05de8a4e3839caf6f0fd15edfa5ba01a2ed49d42daa19e694dd437f39b02441",
+      "sha256": "b05de8a4e3839caf6f0fd15edfa5ba01a2ed49d42daa19e694dd437f39b02441",
+      "size": 3214,
+      "transformation": "none",
+      "role": "required"
+    },
+    {
+      "path": "PROJECT-INTERNAL/GOVERNANCE/EVIDENCE.md",
+      "sourcePath": "PROJECT-INTERNAL/GOVERNANCE/EVIDENCE.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "049cc4643f8370f26f05e4ff0b8230f3b807811d3914b09c9120998819f0d976",
+      "sha256": "049cc4643f8370f26f05e4ff0b8230f3b807811d3914b09c9120998819f0d976",
+      "size": 2292,
+      "transformation": "none",
+      "role": "required"
+    },
+    {
+      "path": "PROJECT-INTERNAL/GOVERNANCE/REASONING.md",
+      "sourcePath": "PROJECT-INTERNAL/GOVERNANCE/REASONING.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "d7c6a7d57aa06cdbf3b2da27985ea95836c14f421e15d03ab1812321ff0ba1d6",
+      "sha256": "d7c6a7d57aa06cdbf3b2da27985ea95836c14f421e15d03ab1812321ff0ba1d6",
+      "size": 2001,
+      "transformation": "none",
+      "role": "required"
+    },
+    {
+      "path": "PROJECT-INTERNAL/GOVERNANCE/RECORDS.md",
+      "sourcePath": "PROJECT-INTERNAL/GOVERNANCE/RECORDS.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "d26a59da4613aaef1016673db1cf9b1a4407dcdefd9fef3629419242b19d8ed8",
+      "sha256": "d26a59da4613aaef1016673db1cf9b1a4407dcdefd9fef3629419242b19d8ed8",
+      "size": 3329,
+      "transformation": "none",
+      "role": "required"
+    },
+    {
+      "path": "PROJECT-INTERNAL/MANAGEMENT/PROJECT-ELABORATION.md",
+      "sourcePath": "PROJECT-INTERNAL/MANAGEMENT/PROJECT-ELABORATION.md",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "2e6d4d7bdcb908483119bddb3df698763e6ad3f2fd1ba8d3d5fc687673bb70d9",
+      "sha256": "70c02feb06c87f023865ecf3534a659297cd3daa3f122069dbacd0c356a2a171",
+      "size": 252,
+      "transformation": "Replace laboratory scope/history with explicitly uninitialized project-owned scope scaffold required by source adoption guide.",
+      "role": "required"
+    },
+    {
+      "path": "PROJECT-INTERNAL/MANAGEMENT/TASKS.json",
+      "sourcePath": "PROJECT-INTERNAL/MANAGEMENT/TASKS.json",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "sourceSha256": "ea7aa1eaf27b9f391f6e0f8bf4238d701b655908a1011924a2d3c8c32dd90b84",
+      "sha256": "64c3825fee3bcbe33f7cffcd1e136ac77967a15947a2228c822bb0859cf4bc95",
+      "size": 63,
+      "transformation": "Fresh registry per source docs/ADOPTION.md; source project history omitted; choose project prefix before use.",
+      "role": "required"
+    },
+    {
+      "path": "README.md",
+      "sourcePath": "README.md",
+      "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
+      "sourceSha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb",
+      "transformation": "owner-authored packaging addition; not original upstream bytes",
+      "role": "required",
+      "sha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb",
+      "size": 1328
+    },
+    {
+      "path": "licenses/legacy-MIT.txt",
+      "sourcePath": "licenses/legacy-MIT.txt",
+      "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
+      "sourceSha256": "dd02548f1066030908ac45ec7252de62ac84ceeb87f56ef677f6d5772a672a82",
+      "transformation": "owner-authored packaging addition; not original upstream bytes",
+      "role": "required",
+      "sha256": "dd02548f1066030908ac45ec7252de62ac84ceeb87f56ef677f6d5772a672a82",
+      "size": 1070
+    }
+  ],
+  "excluded": [
+    {
+      "family": "mdaai-1",
+      "sourcePath": ".dctxignore",
+      "reason": "Editor or application scaffold, outside governance export."
+    },
+    {
+      "family": "mdaai-1",
+      "sourcePath": ".dircontxtignore",
+      "reason": "Editor or application scaffold, outside governance export."
+    },
+    {
+      "family": "mdaai-1",
+      "sourcePath": "CHANGELOG.md",
+      "reason": "Source project execution history; not reusable governance."
+    },
+    {
+      "family": "mdaai-1",
+      "sourcePath": "PROJECT-INTERNAL/WORK-ORDERS/WO-2026-001-codex-workflow-standardization.md",
+      "reason": "Source project execution history; not reusable governance."
+    },
+    {
+      "family": "mdaai-1",
+      "sourcePath": "PROJECT-INTERNAL/WORK-ORDERS/WO-2026-002-universal-org-scaffolding.md",
+      "reason": "Source project execution history; not reusable governance."
+    },
+    {
+      "family": "mdaai-1",
+      "sourcePath": "PROJECT-INTERNAL/WORK-ORDERS/WO-2026-003-roadmap-synchronization-rule.md",
+      "reason": "Source project execution history; not reusable governance."
+    },
+    {
+      "family": "mdaai-1",
+      "sourcePath": "eriscode.config.json",
+      "reason": "Editor or application scaffold, outside governance export."
+    },
+    {
+      "family": "mdaai-1",
+      "sourcePath": "packages/.gitkeep",
+      "reason": "Editor or application scaffold, outside governance export."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "scripts/validate.py",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "tests/test_validate.py",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "docs/ADOPTION.md",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "PROJECT-INTERNAL/ANALYSIS/",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "PROJECT-INTERNAL/RECORDS/",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "formal/",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "research/",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    },
+    {
+      "family": "mdaai-2",
+      "sourcePath": "src/",
+      "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
+    }
+  ]
+}
