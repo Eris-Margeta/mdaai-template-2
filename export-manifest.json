@@ -129,10 +129,16 @@
       "sourcePath": "README.md",
       "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
       "sourceSha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb",
-      "transformation": "owner-authored canonical packaging README; corrected public website backlink; original source revision and hash retained; owner-authorized provider-neutral entry guidance and removal of obsolete compatibility entry references; theme-aware original MDAAI logo; historical source fields retained",
+      "transformation": "owner-authored canonical packaging README; corrected public website backlink; original source revision and hash retained; owner-authorized provider-neutral entry guidance and removal of obsolete compatibility entry references; theme-aware original MDAAI logo; historical source fields retained; independently chosen portable release metadata added (local uncommitted candidate); Owner-authorized release metadata or substantive release-review correction; local upstream hashes remain qualified provenance, not current public source pins.",
       "role": "required",
-      "sha256": "f6932283072f1dd11070886e9b1372dc3479b940da7ec061ba252a7a4c0d2baf",
-      "size": 1783
+      "sha256": "c105681c44dc27ec3e348a2421d8ab02f19d357504d60c6d52823c0efa742a67",
+      "size": 2361,
+      "historicalSource": {
+        "sourcePath": "README.md",
+        "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
+        "sourceSha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb"
+      },
+      "publicReleaseAdaptation": "Owner-authorized release metadata or substantive release-review correction; local upstream hashes remain qualified provenance, not current public source pins."
     },
     {
       "path": "assets/brand/logo-black.svg",
@@ -165,6 +171,27 @@
       "role": "required",
       "sha256": "dd02548f1066030908ac45ec7252de62ac84ceeb87f56ef677f6d5772a672a82",
       "size": 1070
+    },
+    {
+      "path": "TEMPLATE-IDENTITY.json",
+      "sourcePath": "TEMPLATE-IDENTITY.json",
+      "sourceRevision": null,
+      "sourceSha256": "11e672f786d923b3955fae863f1b027014e54ea6b88f7ed5ac575cd6e8f5c881",
+      "transformation": "Owner-authorized independent portable packaging metadata; no original runtime/source change or automatic version inheritance; Owner-authorized release metadata or substantive release-review correction; local upstream hashes remain qualified provenance, not current public source pins.",
+      "role": "required",
+      "sha256": "30bd0f177b9959375884cb3fb164febb7578a11aa394a1ea72eb048944986fa2",
+      "size": 540,
+      "publicReleaseAdaptation": "Owner-authorized release metadata or substantive release-review correction; local upstream hashes remain qualified provenance, not current public source pins."
+    },
+    {
+      "path": "VERSION",
+      "sourcePath": "VERSION",
+      "sourceRevision": null,
+      "sourceSha256": "fe840f52fb5578d3f77eb497115eb02c6036601c3a53e60df7995c7276baa77a",
+      "transformation": "Owner-authorized independent portable packaging metadata; no original runtime/source change or automatic version inheritance",
+      "role": "required",
+      "sha256": "fe840f52fb5578d3f77eb497115eb02c6036601c3a53e60df7995c7276baa77a",
+      "size": 6
     }
   ],
   "excluded": [
@@ -248,5 +275,20 @@
       "sourcePath": "src/",
       "reason": "Laboratory-specific tooling, rollout policy, evidence or task history; not part of the portable six-file core."
     }
-  ]
+  ],
+  "releaseIdentity": {
+    "schemaVersion": 1,
+    "templateName": "MDAAI 2.0",
+    "releaseVersion": "2.0.1",
+    "releaseStatus": "RELEASE",
+    "protocolVersion": null,
+    "origin": {
+      "sourceVersion": "2.0.0",
+      "sourceRevision": "5395006954bf298db652679b934ea5755ec17b1c",
+      "priorPortableCatalogLabel": "upstream-derived 2.0.0 plus source abbreviation; no portable VERSION file"
+    },
+    "rationale": "Independent portable correction release; public Git commit identifies this package, not an upstream tag, protocol version, adoption or runtime enforcement."
+  },
+  "publicationGate": "Catalog/website adoption requires a reviewed index PR with exact public package commit pins. Paper remains private.",
+  "publicReleaseIdentity": "The containing public Git commit identifies this package; no self-referential commit field or upstream tag is asserted."
 }
