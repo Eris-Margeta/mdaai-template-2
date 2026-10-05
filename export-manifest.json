@@ -129,10 +129,10 @@
       "sourcePath": "README.md",
       "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
       "sourceSha256": "c703ebf558d73fbdb5d04ff59c42331d616fae9454c81c0640706d802eaffabb",
-      "transformation": "owner-authored canonical packaging README; corrected public website backlink; original source revision and hash retained; owner-authorized provider-neutral entry guidance and removal of obsolete compatibility entry references; theme-aware original MDAAI logo; historical source fields retained; independently chosen portable release metadata added (local uncommitted candidate); Owner-authorized release metadata or substantive release-review correction; local upstream hashes remain qualified provenance, not current public source pins.",
+      "transformation": "owner-authored canonical packaging README; corrected public website backlink; original source revision and hash retained; owner-authorized provider-neutral entry guidance and removal of obsolete compatibility entry references; theme-aware original MDAAI logo; historical source fields retained; independently chosen portable release metadata added (local uncommitted candidate); Owner-authorized release metadata or substantive release-review correction; local upstream hashes remain qualified provenance, not current public source pins.; owner-authorized HOW TO USE adoption documentation; historical source provenance retained",
       "role": "required",
-      "sha256": "c105681c44dc27ec3e348a2421d8ab02f19d357504d60c6d52823c0efa742a67",
-      "size": 2361,
+      "sha256": "de5eacf4e72899c72165f47f5d48078cf070c313170384cd235cfd8e49d4d3d3",
+      "size": 6419,
       "historicalSource": {
         "sourcePath": "README.md",
         "sourceRevision": "4ad670f9402e8699ed969ae719188196ef089aae",
